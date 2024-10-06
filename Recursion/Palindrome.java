@@ -26,7 +26,7 @@ public class Palindrome {
         Scanner input = new Scanner(System.in);
         System.out.print("Enter a text to check: ");
         String text = input.nextLine();
-        System.out.print("The answer is "+ palindrome(text));
+        System.out.println("The answer is "+ palindrome(text));
 
     }
 }
